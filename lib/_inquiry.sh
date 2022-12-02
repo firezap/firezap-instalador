@@ -95,10 +95,10 @@ software_update() {
 inquiry_options() {
   
   print_banner
-  printf "${WHITE} 💻 Bem vindo(a) ao instalador CONECTEUP, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bem vindo(a) ao instalador FireZAP, Selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [1] Instalar o CONECTEUP\n"
-  printf "   [2] Atualizar o CONECTEUP\n"
+  printf "   [1] Instalar o FireZAP\n"
+  printf "   [2] Atualizar o FireZAP\n"
   printf "\n"
   read -p "> " option
 

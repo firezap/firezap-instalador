@@ -25,7 +25,7 @@ print_banner() {
   printf "${BLUE}";
   printf "                              \n";
   printf "     ****************************************************          \n";
-  printf "        ░C░O░N░E░C░T░E░U░P░           \n";
+  printf "        ░F░I░R░E░Z░A░P░           \n";
   printf "     *****************************************************            \n";
   printf "                              \n";
   printf "\n"

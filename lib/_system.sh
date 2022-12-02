@@ -29,14 +29,14 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código WhatsBusiness...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo download do código FireZAP...${GRAY_LIGHT}"
   printf "\n\n"
 
 
   sleep 2
 
   sudo su - owenzap <<EOF
-  git clone https://github.com/conecteup/web /home/owenzap/${instancia_add}/
+  git clone https://github.com/firezap/firezap-main /home/owenzap/${instancia_add}/
 EOF
 
   sleep 2
@@ -49,7 +49,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} 💻 Vamos atualizar o sistema WhatsBusiness...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Vamos atualizar o sistema FireZAP...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
